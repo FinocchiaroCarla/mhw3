@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="mhw3.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <title>mhw3</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="mhw3.js" defer="true"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div id="links">
+      <a>HOME</a>
+      <a>ACCEDI</a>
+      <a>CONSIGLI</a>
+      <a id="modal1"><img src="img/lente1.png"/></a> 
+      </div> 
+
+      <div id="menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+
+
+    <header>
+      <div id="overlay"></div>
+      <h1>LE RICETTE PIU' AMATE</h1>
+    </header>
+
+    <div id="profile">
+      <img src="img/user.png"/>
+      <p>Carla Finocchiaro</p>
+    </div>
+    
+  <article>
+    <section id="view">
+
+      <div class="paragraph">
+        <div class="index">1.</div>
+        <div class="block">
+          <div class="name">PARMIGIANA DI MELANZANE</div>
+          <div class="text">Vi siete mai chiesti perche' si chiami cosi'? Il nome "Parmigiana" deriverebbe proprio dal siciliano "Parmiciana", che in dialetto indica la pila di listelle di legno delle persiane: pensate infatti a come vengono disposte le fette di melanzane in teglia e noterete le similitudini. Pochi ingredienti come pomodoro, melanzane, basilico e formaggio, tanto sapore per un piatto simbolo della cucina mediterranea!</div>
+          <div class="time">
+            <div class="spotify" data-choice-id="parmigiana"></div>
+            <div><em>Tempo di preparazione: 2h 30m</em></div>
+            </div>
+          <div id="parmigiana"></div>
+        </div>
+      </div>
+     
+
+      <div class="paragraph">
+        <div class="index">2.</div>
+        <div class="block">
+          <div class="name">SPAGHETTI ALLA CARBONARA</div>
+          <div class="text">La storia piu' attendibile su questo primo piatto, infatti, racconta l'incontro tra gli ingredienti a disposizione dei soldati americani e la fantasia di un cuoco romano. Il risultato fu il prototipo degli spaghetti alla carbonara: uova, bacon e formaggio. Man a mano la ricetta e' evoluta fino a quella che tutti conosciamo oggi e che possiamo apprezzare nelle innumerevoli versioni</div>
+          <div class="time">
+            <div class="spotify" data-choice-id="carbonara"></div>
+            <div><em>Tempo di preparazione: 25min</em></div>
+            </div>
+          <div id="carbonara"></div>
+        </div>
+      </div>
+
+      <div class="paragraph">
+        <div class="index">3.</div>
+        <div class="block">
+          <div class="name">LASAGNE</div>
+          <div class="text">Le lasagne alla Bolognese sono un'istituzione, il piatto tipico della domenica. Questa pietanza ricca e saporita è originaria dell'Emilia e, nello specifico, della città di Bologna. Le lasagne però sono conosciute, apprezzate, fatte, rifatte per le feste e non solo, assaggiate e condivise non solo in tutta Italia, ma anche all'estero proprio come piatto simbolo italiano.</div>
+          <div class="time">
+            <div class="spotify" data-choice-id="lasagne"></div>
+            <div><em>Tempo di preparazione: 3h</em></div>
+          </div>
+          <div id="lasagne"></div>
+        </div>
+      </div>
+
+      <div class="paragraph">
+        <div class="index">4.</div>
+        <div class="block">
+          <div class="name">PIZZA MARGHERITA</div>
+          <div class="text">Napoli e' mille colori, si, ma mille colori di pizza! Anche se chiedendo in giro vi diranno che l'originale e' una sola, la pizza margherita, e non esistono altri tipi di condimento. Ogni pizzaiolo che si rispetti ha la sua ricetta e la custodisce gelosamente, ma noi ne abbiamo creata una tutta nostra e abbiamo scelto di condividerla con voi...</div>
+          <div class="time">
+            <div class="spotify" data-choice-id="pizza"></div>
+            <div><em>Tempo di preparazione: 45min</em></div>
+          </div>
+          <div id="pizza"></div>
+        </div>
+      </div>
+
+      <div class="paragraph">
+        <div class="index">5.</div>
+        <div class="block">
+          <div class="name">TIRAMISU'</div>
+          <div class="text">Il tiramisu' e' uno dei capisaldi della cucina italiana, uno dei dolci al cucchiaio piu' amati e realizzati in tutto il mondo. Le origini del tiramisu' sono molto incerte e diverse citta' ne rivendicano la paternita'. Ciò di cui siamo certi e' che dal 1980 in poi, anno in cui questo termine venne inserito nel vocabolario italiano, il tiramisu' ha avuto un successo enorme!</div>
+          <div class="time">
+            <div class="spotify" data-choice-id="tiramisu"></div>
+            <div><em>Tempo di preparazione: 40min</em></div>
+          </div>
+          <div id="tiramisu"></div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="modal-view1" class="hidden">
+      <div class="all">
+
+        <div class="bar">
+          <div class="esc">
+            <img src="img/x.png">
+          </div>
+        </div>
+
+          <div class="body">
+              <form id="recipes">
+              Cerca la ricetta!
+              <input type="text" id="recipe">
+              </form>
+
+              <div id="library"></div>
+
+          </div>
+        </div>
+
+    </section>
+
+    <section id="modal-view2" class="hidden">
+      <div class="all">
+
+        <div class="bar">
+          <div class="esc">
+            <img src="img/x.png">
+          </div>
+        </div>
+
+          <div class="body">
+          </div>
+
+        </div>
+
+    </section>
+
+  </article>
+
+    <footer>
+      <p><strong>Carla Finocchiaro 1000011572</strong></p>
+    </footer>
+
+  </body>
+
+</html>
+
+
